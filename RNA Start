@@ -39,3 +39,16 @@ Update it by typing the commands `sudo apt-get install PACKAGE` where PACKAGE is
 6. Here's the STAR aligner: https://github.com/alexdobin/STAR
 Clone the repository, change directories into the STAR folder, then type `make` in the directory to build it.
 7. Try running the STAR aligner on the bresnick data. It's located in STAR/source. I attached an example command produced by PDE.
+
+
+########
+cufflinks could not installed by : sudo apt-get install cufflinks. But by copy pre-compiled binary packages.
+http://cole-trapnell-lab.github.io/cufflinks/getting_started/#install-quick-start
+If need boost : sudo apt-get install libboost-all-dev
+If need eigen : sudo apt install libeigen3-dev
+
+seqtk could be installed by sudo apt-get install seqtk
+
+
+
+
