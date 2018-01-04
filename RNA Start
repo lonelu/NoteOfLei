@@ -48,7 +48,7 @@ If need boost : sudo apt-get install libboost-all-dev
 If need eigen : sudo apt install libeigen3-dev
 
 seqtk could be installed by sudo apt-get install seqtk
-
+star could be installed by sudo apt-get install rna-star
 
 
 
