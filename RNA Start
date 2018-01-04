@@ -1,0 +1,41 @@
+Here's the proteoform database engine repository to start perusing: https://github.com/smith-chem-wisc/ProteoformDatabaseEngine
+
+1. Get Linux subsystem for windows working on your computer.
+https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
+https://docs.microsoft.com/en-us/windows/wsl/about
+
+Update it by typing the commands `sudo apt-get install PACKAGE` where PACKAGE is each of the following: 
+                // installers
+                "gcc",
+                "g++",
+                "make",
+                "cmake",
+                "build-essential",
+
+                // file compression
+                "zlib1g-dev",
+
+                // bioinformatics
+                "samtools",
+                "tophat",
+                "cufflinks",
+                "bedtools",
+                "picard-tools",
+
+                // commandline tools
+                "gawk",
+                "git",
+                "python",
+                "python-dev",
+                "python-setuptools",
+                "libpython2.7-dev",
+
+2. Download the FASTQ files from the link I sent you from the Bresnick lab.
+3. Clone the seqtk repository from https://github.com/lh3/seqtk
+4. Check out the seqtk tool by going to its directory in the bash commandline tool and typing `seqtk -h`
+5. Subset one of the bresnick rna-seq runs with 
+`seqtk sample -s 0 reads1.fastq > newreads1.fastq`
+`seqtk sample -s 0 reads2.fastq > newreads2.fastq`
+6. Here's the STAR aligner: https://github.com/alexdobin/STAR
+Clone the repository, change directories into the STAR folder, then type `make` in the directory to build it.
+7. Try running the STAR aligner on the bresnick data. It's located in STAR/source. I attached an example command produced by PDE.
