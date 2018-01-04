@@ -1,0 +1,12 @@
+#######
+Download Genome Seq from Ensembl
+ensembl ftp :  https://useast.ensembl.org/info/data/ftp/index.html
+Choose Human FASTA and GFF3
+
+After download, run ubuntu bash to unzip.
+gunzip *.gz
+
+cd ~/STAR/bin/Linum_x86_64
+STAR --runMode genomeGenerate --runThreadN 8 --genomeDir /mnt/e/RNAData/GRCh38.91STARIndex/ -- genomeFastaFiles /mnt/e/RNAData/GRCh38.91STARIndex/Home_sapiens.GRCh38.dan.primary_assembly.fa --sjdbGRFfile /mnt/e/RNAData/GRCh38.91STARIndex/Home_sapiens.GRCh38.91.gff3
+
+#######
