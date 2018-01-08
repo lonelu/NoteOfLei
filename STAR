@@ -1,4 +1,4 @@
-#######
+######
 Download Genome Seq from Ensembl
 ensembl ftp :  https://useast.ensembl.org/info/data/ftp/index.html
 Choose Human FASTA and GFF3
@@ -9,4 +9,9 @@ gunzip *.gz
 cd ~/STAR/bin/Linum_x86_64
 STAR --runMode genomeGenerate --runThreadN 8 --genomeDir /mnt/e/RNAData/GRCh38.91STARIndex/ -- genomeFastaFiles /mnt/e/RNAData/GRCh38.91STARIndex/Home_sapiens.GRCh38.dna.primary_assembly.fa --sjdbGTFfile /mnt/e/RNAData/GRCh38.91STARIndex/Home_sapiens.GRCh38.91.gff3
 
-#######
+######
+Aother software for RNA-Seq De novo Assembly is Trinity.
+
+######
+Cufflinks use UCSC GTF/GFF3 gene annotation. STAR use Ensemble GTF/GFF3 annotation. After mapping, a transfer is needed by ChromosomeMapping/GRCh38_ensembl2UCSC.txt
+
