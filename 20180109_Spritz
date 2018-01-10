@@ -1,0 +1,17 @@
+######
+In Git Bash
+> git clone https://github.com/smith-chem-wisc/Spritz.git
+> git clone https://github.com/evolvedmicrobe/Bio.VCF.git
+Open Spritz and build it. 
+open cmd.exe and run the command
+> cd E:\GitHub\Spritz\CMD\bin\Debug
+> CMD.exe -c setup
+#The GATK is not perfectly build. 
+(The following command could only be run with super computer RAM 30G)
+> CMD.exe -c run -fq1 read1.fastq -fq2 read2.fastq -d STARindexFolderPath -g geneModel.gff3 -f genomeFasta.fa
+
+######
+Check the relationship between C:\Windows\System32\bash.exe and ubuntu
+
+There is a interesting problem with ubuntu in windows, which may occur in Spritz:
+https://groups.google.com/forum/#!topic/rna-star/MQdL1WxkAAw
