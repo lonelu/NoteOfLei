@@ -1,0 +1,12 @@
+######
+Try to run STAR and Cufflink based on 'Mapping RNA-seq reads with STAR' protocol 3 and protocol 8 on Ubuntu.
+The data I guess is unpaired because of they are all single. But stranded or un-stranded? Output BAM Unsorted or SortedByCoordinate? 
+> cd /mnt/e/Lei/RNAData/
+> STAR --runThreadN 20 --genomeDir /mnt/e/Lei/RNAData/GRCh.38.91STARIndex/ 
+       --readFilesIn /mnt/e/Lei/RNAData/AC9E6PANXX/d-R1_ACCTCA_L001_R1_001.fastq.gz 
+       --readFilesCommand gunzip -c 
+       --sjdbGTFfile /mnt/e/Lei/RNAData/GRCh.38.91STARIndex/Homo_sapiens.GRCh38.91.gtf 
+       --outSAMtype BAM SortedByCoordinate
+       
+> 
+       
