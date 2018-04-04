@@ -1,0 +1,12 @@
+I remember this bug happened before.
+
+e: System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at EngineLayer.PeptideSpectralMatch.Resolve(IEnumerable`1 enumerable) in E:\github\MetaMorpheus\EngineLayer\PeptideSpectralMatch.cs:line 489
+   at EngineLayer.PeptideSpectralMatch.MatchToProteinLinkedPeptides(Dictionary`2 matching) in E:\github\MetaMorpheus\EngineLayer\PeptideSpectralMatch.cs:line 206
+   at EngineLayer.CrosslinkAnalysis.CrosslinkAnalysisEngine.RunSpecific() in E:\github\MetaMorpheus\EngineLayer\CrosslinkAnalysis\CrosslinkAnalysisEngine.cs:line 122
+   at EngineLayer.MetaMorpheusEngine.Run() in E:\github\MetaMorpheus\EngineLayer\MetaMorpheusEngine.cs:line 365
+   at TaskLayer.XLSearchTask.RunSpecific(String OutputFolder, List`1 dbFilenameList, List`1 currentRawFileList, String taskId, FileSpecificSettings[] fileSettingsList) in E:\github\MetaMorpheus\TaskLayer\XLSearchTask\XLSearchTask.cs:line 225
+   
