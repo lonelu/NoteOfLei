@@ -1,0 +1,7 @@
+2018-04-15
+1. OS is what control hardware.
+2. OS include Abstraction, Mechanism, Policies
+3. User/kernel boundary and system call flow chart
+4. System calls include: Process control, File Manipulation, Device Manipulation, Information maintenance, Communication, Protection.
+5. Modular OS include Module (work load) at user-level and Module (interface) at OS
+6. Linux architecture: User---Standard utility program---standard library---linux operating system---Hardware
