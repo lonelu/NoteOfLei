@@ -5,3 +5,13 @@
 4. System calls include: Process control, File Manipulation, Device Manipulation, Information maintenance, Communication, Protection.
 5. Modular OS include Module (work load) at user-level and Module (interface) at OS
 6. Linux architecture: User---Standard utility program---standard library---linux operating system---Hardware
+
+2018-04-16
+1. Process is Instance of an executuing program.
+2. structure of Process: text, data, heap, stack...
+3. data structure Process conrol Block maintained by OS to manage every process.
+4. context switch cost between process running and idle
+5. Process life cyclye: New, Ready, Runing, Waiting, Terminated
+6. Process creation:Fork copy parent PCB, Exec replace child image
+7. CUP scheduler: which and how long process run. 
+8. Process interaction: Inter process communication by channel, Shared Memory IPC. 
