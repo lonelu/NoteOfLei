@@ -15,3 +15,23 @@
 6. Process creation:Fork copy parent PCB, Exec replace child image
 7. CUP scheduler: which and how long process run. 
 8. Process interaction: Inter process communication by channel, Shared Memory IPC. 
+
+2018-04-18
+1. Threads and Concurrency.
+2. PCB or Process control Block contains: code data files, regs, stacks which can work with multiple threads.
+3. Single CPU also benefit from parallel. 
+4. Thread Mechanism. 
+   a. Mutual Exclusion - exclusive access to only on thread at a time  - mutex
+   b. waiting - Specific condition - condition variable
+5. Thread creation - thread data structure (thread ID, PC, SP, registers, stack, attributes)
+6. Mutex: Locked, owner, blocked_threads. 
+   Lock(mutex){ critical condition }
+7. Condition Variable : Mutex ref, waiting threads
+8. Reader/Writer example !!!
+9. Possible thread related bug: spurious wake-ups, Deadlocks,
+10. Kernel vs User-level Threads
+11. multi-threading pattern: 
+    a. Boss-worker Pattern
+    b. Pipeline Pattern
+    c. Layered Pattern
+    
