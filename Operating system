@@ -16,7 +16,7 @@
 7. CUP scheduler: which and how long process run. 
 8. Process interaction: Inter process communication by channel, Shared Memory IPC. 
 
-2018-04-18
+2018-04-17
 1. Threads and Concurrency.
 2. PCB or Process control Block contains: code data files, regs, stacks which can work with multiple threads.
 3. Single CPU also benefit from parallel. 
@@ -35,3 +35,8 @@
     b. Pipeline Pattern
     c. Layered Pattern
     
+2018-04-18    
+1. pthreads or POSIX Threads (portable Operating System Interface) is realized version of Burrell's Mechanism. 
+2. int pthread_create( pthread_t * thread, ...) 
+   stack size, inheritance, joinable, scheduling policy, priority, system/process scope.
+3. Detaching pthreads (cannot join)
