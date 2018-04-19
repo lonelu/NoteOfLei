@@ -51,4 +51,6 @@ Run pthread example from the course
 a. @: cp /mnt/___ ~/pthread
 b. @: gcc -pthread -o ___ ___.c -> ./___
 
-
+C C++ Java on Eclipse
+a. Install Eclipse and Java SE Development Kit
+a. open www.equation.com -> programming tool -> c c++ -> download the most recent gcc package -> install to C:\MinGW
