@@ -47,3 +47,8 @@ b. Windows Store -> Search ubuntu -> install
 c. @: sudo apt update -> sudo apt gcc g++ make cmake
 d. Generate hello.c file by nano -> @: gcc -o hello hello.c -> @: ./hello
 
+Run pthread example from the course
+a. @: cp /mnt/___ ~/pthread
+b. @: gcc -pthread -o ___ ___.c -> ./___
+
+
