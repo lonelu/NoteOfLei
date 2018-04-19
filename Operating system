@@ -40,3 +40,10 @@
 2. int pthread_create( pthread_t * thread, ...) 
    stack size, inheritance, joinable, scheduling policy, priority, system/process scope.
 3. Detaching pthreads (cannot join)
+
+Install Ubuntu on Windows 10 and run first C program
+a. Control Panel -> Programs -> Turn Windwows features on -> Linux subsystem on
+b. Windows Store -> Search ubuntu -> install
+c. @: sudo apt update -> sudo apt gcc g++ make cmake
+d. Generate hello.c file by nano -> @: gcc -o hello hello.c -> @: ./hello
+
