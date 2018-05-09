@@ -5,4 +5,5 @@
 
 3. Abstract method vs virtual method. Abstract methods do not provide implementation.
 
-
+4. Delegate is a type of class (SystemMulticastDelegate). 
+  Delegate is used to transfer methods as parameters.
