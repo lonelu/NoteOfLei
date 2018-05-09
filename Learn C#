@@ -1,0 +1,8 @@
+1. Property package Field.
+
+2. Somehow, Interface is a special abstract class. 
+  Inheritance describes an is-a relationship. Interface describes a can-do relationship.
+
+3. Abstract method vs virtual method. Abstract methods do not provide implementation.
+
+
