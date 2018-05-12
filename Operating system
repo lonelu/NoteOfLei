@@ -54,3 +54,14 @@ b. @: gcc -pthread -o ___ ___.c -> ./___
 C C++ Java on Eclipse
 a. Install Eclipse and Java SE Development Kit
 a. open www.equation.com -> programming tool -> c c++ -> download the most recent gcc package -> install to C:\MinGW
+
+2018-05-12
+Thread design consideration
+1. Thread-related Data Structure:
+    User level thread
+         Process Control Block (PCB)
+    Kernel-level thread
+2. Interrupt based on physical platform
+   Signal based on operating system
+3. Mask
+4. Task Struct in Linux
