@@ -1,0 +1,21 @@
+
+#The code below can be used in MetaMorpheus/FindCrosslinkedPeptide to generate psms, which is useful for debugging.
+            if (theScan.OneBasedScanNumber == 18176)
+            {
+                var writtenFile = Path.Combine("E:\\MassData\\2017-06-23_XL_BSA_Ub_DSS", "18176.csv");
+                using (StreamWriter output = new StreamWriter(writtenFile))
+                {
+                    output.WriteLine("baseSeq,fullSeq,Mass");
+                    foreach (var item in theScanBestPeptide)
+                    {
+
+                            output.WriteLine(
+                                item.BestPeptide.BaseSequence
+
+                                + "," + item.BestPeptide.FullSequence
+                                + "," + item.BestPeptide.MonoisotopicMass
+                                );
+                        
+                    }
+                }
+            }
