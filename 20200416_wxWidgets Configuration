@@ -1,0 +1,10 @@
+Setup wxWidgets for VS in windows.
+1. Download wxWidget source code. unzip the file. 
+2. Copy to D:/sdks.
+3. Open wxWidgets/build/msw/wx_vc#.sln
+4. Batch build -> Select all 
+5. Environment varibles -> New system variables -> Variable name: WXWIN; Varable value: D:\sdks\wxWidets.
+6. Open VS -> new C++ windows desktop application -> Delete all Header files, Resource files Source Files.
+7. Open Project properties -> C/C++ Additional Include Directories: $(WXWIN)\include;$(WXWIN)\include\msvc
+   ->Linker Addiitional Library Directories: $(WXWIN)\lib\vc_lib
+
