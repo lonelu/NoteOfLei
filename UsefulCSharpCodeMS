@@ -1,0 +1,10 @@
+            //using (StreamWriter output = new StreamWriter(Path.Combine(TestContext.CurrentContext.TestDirectory, "GlycanFragmentions.txt")))
+            //{
+            //    foreach (var product in fragmentIons)
+            //    {
+            //        foreach (var ion in product.Item2)
+            //        {
+            //            output.WriteLine(ion.Annotation + "\t" + ion.NeutralLoss.ToString() + "\t" + ion.NeutralMass.ToString());
+            //        }
+            //    }
+            //}
